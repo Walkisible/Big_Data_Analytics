@@ -1,10 +1,14 @@
 ## Assignment 1: Preparation -- Install Spark
 
-## Download assignment ที่ 1 ผ่าน:
+## Download assignment ที่ 1:
 
-https://github.com/Walkisible/Big_Data_Analytics/tree/main/Assignment01
+https://github.com/Walkisible/Big_Data_Analytics/tree/main
+clone/download git repo
 
-Guide line สำหรับการติดตั้ง Spark บน google colab: https://github.com/Walkisible/Big_Data_Analytics/blob/main/Spark_install.ipynb
+ไฟล์ที่ต้องใช้สำหรับ Assignment 1 ประกอบไปด้วย
+1.1 ไฟล์ Assignment1_StudentID.ipynb
+1.2 library: test_helper
+1.3 dataset
 
 ## README
 
@@ -12,7 +16,7 @@ Guide line สำหรับการติดตั้ง Spark บน google 
 
 อย่างไรก็ตาม ใน class จะอธิบายการ implement ไว้ให้ 2 วิธีคือการสร้าง local VM เพื่อ compute แบบ distributed กับวิธีที่ 2 คือการไป implement บน google colab
 
-## วิธีที่ 2 -- รันบน local computer
+## วิธีที่ 1 -- รันบน local computer
 
 ขั้นตอนแรก: ให้ทุกคนติดตั้ง Anaconda ก่อน เพื่อลง Environments สำหรับการใช้ภาษา Python บน คอมพิวเตอร์ส่วนตัว หากใครมี Anaconda แล้ว ให้ไปติดตั้ง Spark บนคอมพิวเตอร์ตาม OS ที่กำหนดในวิธี 1A หรือ 1B (ให้ติดตั้งและเลือกสร้าง env บน Python 3)
 
@@ -60,7 +64,7 @@ Guide line สำหรับการติดตั้ง Spark บน google 
 5. ทำการ insert code จากไฟล์ "Spark_installation.ipynb" ซึ่งใน file จะมีวิธีการ install Spark และการสร้าง SparkContext อยู่แล้วให้ทำการ copy ตัว code มาวางใน file Assingment1_StudentID ใน Part 0 ได้เลย (ทำตาม instruction ในไฟล์ได้เลย)
 6. ศึกษาหัวข้อ “Running Your First Notebook” โดยทดลองรันโปรแกรมตามคำอธิบายทีละขั้นตอน (อย่างไรก็ดี ออนไลน์คอร์สนี้ปัจจุบันปิดคอร์สแล้ว ทำให้ไม่สามารถ “submit” ตาม “Part 5: Export/ download and submit” ได้)
 
-
 ## วิธีส่งงาน:
+
 1. หน้า “Assignment1_StudentID.ipynb” --> ให้ทำการสั่ง print หน้า web page แล้วเลือก save เป็น pdf file (แนะนำ Google Chrome) ให้เห็นผลการรัน แล้วส่งไฟล์ pdf พร้อมทั้ง source code มาที่ CourseVille โดยตั้งชื่อไฟล์เป็น “Assignment1_6XXXXXXX21.pdf” เมื่อ “6XXXXXXX21” คือรหัสประจำตัวนิสิต
 2. คะแนนของแต่ละ assignment จะมาจากจำนวน test passed ที่ทำ อย่างไรก็ตาม source code ชุดนี้ maintain มานานหลายปีและอาจจะมีบางส่วนที่ assert ไม่ตรง เนื่องด้วย versioning และ distribution behavior อาจจะส่งผลให้แม้จะได้ result ที่ถูกต้อง แต่ก็ test failed ได้, นิสิตสามารถแจ้ง TA ได้เลยนะครับ TA จะทำการ check และให้คะแนนตามคำตอบที่ถูกต้อง
