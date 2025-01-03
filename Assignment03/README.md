@@ -4,12 +4,13 @@
 
 เขียนโปรแกรมสำหรับ Millionsong Regression Pipeline โดยทำขั้นตอนต่อไปนี้
 
-1. clone/download git repo
+1. clone/download git repo<br />
 
 ไฟล์ที่ต้องใช้สำหรับ Assignment 3 ประกอบไปด้วย<br />
-1.1 โปรแกรม Millionsong Regression Pipeline ในชื่อไฟล์ Assignment3_StudentID.ipynb<br />
-1.2 library: test_helper<br />
-1.3 dataset
+
+- โปรแกรม Millionsong Regression Pipeline ในชื่อไฟล์ Assignment3_StudentID.ipynb<br />
+- library: test_helper<br />
+- dataset
 
 2. upload ทุกไฟล์ที่ download มาขึ้นไปยัง google drive ของนิสิต (ในกรณีของ VirtualBox จะอยู่ที่ http://localhost:8001/ และให้ upload ขึ้น jupyter )
 

@@ -4,12 +4,13 @@
 
 เขียนโปรแกรมสำหรับ Click-Through Rate Prediction โดยทำขั้นตอนต่อไปนี้
 
-1. clone/download git repo
+1. clone/download git repo<br />
 
 ไฟล์ที่ต้องใช้สำหรับ Assignment 4 ประกอบไปด้วย<br />
-1.1 โปรแกรม Click-Through Rate Prediction ในชื่อไฟล์ Assignment4_StudentID.ipynb<br />
-1.2 library: test_helper<br />
-1.3 dataset
+
+- โปรแกรม Click-Through Rate Prediction ในชื่อไฟล์ Assignment4_StudentID.ipynb<br />
+- library: test_helper<br />
+- dataset
 
 2. upload ทุกไฟล์ที่ download มาขึ้นไปยัง google drive ของนิสิต (ในกรณีของ VirtualBox จะอยู่ที่ http://localhost:8001/ และให้ upload ขึ้น jupyter )
 
