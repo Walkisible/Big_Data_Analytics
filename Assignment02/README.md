@@ -6,11 +6,11 @@
 
 1. clone/download git repo
 
-ไฟล์ที่ต้องใช้สำหรับ Assignment 2 ประกอบไปด้วย<br />
-1.1 โปรแกรม Spark Tutorial ซึ่งจะทำการอธิบายภายในคาบเรียน<br />
-1.2 โปรแกรม Word Count ในชื่อไฟล์ Assignment2_StudentID.ipynb<br />
-1.3 library: test_helper<br />
-1.4 dataset
+   ไฟล์ที่ต้องใช้สำหรับ Assignment 2 ประกอบไปด้วย<br />
+   - โปรแกรม Spark Tutorial ซึ่งจะทำการอธิบายภายในคาบเรียน<br />
+   - โปรแกรม Word Count ในชื่อไฟล์ Assignment2_StudentID.ipynb<br />
+   - library: test_helper<br />
+   - dataset
 
 2. upload ทุกไฟล์ที่ download มาขึ้นไปยัง google drive ของนิสิต (ในกรณีของ VirtualBox จะอยู่ที่ http://localhost:8001/ และให้ upload ขึ้น jupyter )
 

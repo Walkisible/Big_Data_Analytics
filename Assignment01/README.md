@@ -2,13 +2,13 @@
 
 ## Download assignment ที่ 1:
 
-https://github.com/Walkisible/Big_Data_Analytics/tree/main
-clone/download git repo
+clone/download git repo<br />
 
 ไฟล์ที่ต้องใช้สำหรับ Assignment 1 ประกอบไปด้วย<br />
-1.1 ไฟล์ Assignment1_StudentID.ipynb<br />
-1.2 library: test_helper<br />
-1.3 dataset<br />
+
+- ไฟล์ Assignment1_StudentID.ipynb<br />
+- library: test_helper<br />
+- dataset<br />
 
 ## README
 
@@ -31,15 +31,15 @@ clone/download git repo
      Download & install VirtualBox – เลือก version ใหม่ล่าสุดจาก Website
 
 * ในกรณีที่ใช้ Windows 10 หลังติดตั้งเสร็จแล้ว ให้เลือกค่า “Run this program in compatibility mode for Windows 7” สำหรับ VirtualBox<br />
-  Download & install Vagrant – เลือกversion ใหม่ล่าสุดจาก Website<br />
-  Download & install Virtual Machine<br />
-  download file https://github.com/spark-mooc/mooc-setup/archive/master.zip ไว้ที่ “user directory” เช่น c:\users\boonserm\myvagrant จากนั้น Unzip file แล้ว copy “Vagrantfile” ไว้ที่ “user directory”<br />
-  Run software:<br />
-  run cmd (command prompt – run as administrator)<br />
-  เปลี่ยนไดเร็กทอรีไปที่ user directory<br />
-  run “vagrant up” แล้วรอจนกว่าจะ Download เสร็จ จึงค่อย Start sparkvm ใน VM Machine จากนั้น ให้เข้าไปที่ http://localhost:8001 เพื่อรัน Jupyter Notebook<br />
-  ศึกษาหัวข้อ “Basic Instructions for Using the Virtual Machine” ตามวิดีโอ<br />
-  ศึกษาหัวข้อ “Running Your First Notebook” โดยการ upload file “Assignment1_StudentID.ipynb” (Spark iPython notebook file) และทดลองรันโปรแกรมตามคำอธิบายทีละขั้นตอน (อย่างไรก็ดี ออนไลน์คอร์สนี้ปัจจุบันปิดคอร์สแล้ว ทำให้ไม่สามารถ “submit” ตาม “Part 5: Export/ download and submit” ได้)<br />
+
+  1. Download & install Vagrant – เลือกversion ใหม่ล่าสุดจาก Website
+  2. Download & install Virtual Machine
+  3. download file https://github.com/spark-mooc/mooc-setup/archive/master.zip ไว้ที่ “user directory” เช่น c:\users\boonserm\myvagrant จากนั้น Unzip file แล้ว copy “Vagrantfile” ไว้ที่ “user directory”
+  4. run cmd (command prompt – run as administrator)
+  5. เปลี่ยนไดเร็กทอรีไปที่ user directory
+  6. run “vagrant up” แล้วรอจนกว่าจะ Download เสร็จ จึงค่อย Start sparkvm ใน VM Machine จากนั้น ให้เข้าไปที่ http://localhost:8001 เพื่อรัน Jupyter Notebook
+  7. ศึกษาหัวข้อ “Basic Instructions for Using the Virtual Machine” ตามวิดีโอ
+  8. ศึกษาหัวข้อ “Running Your First Notebook” โดยการ upload file “Assignment1_StudentID.ipynb” (Spark iPython notebook file) และทดลองรันโปรแกรมตามคำอธิบายทีละขั้นตอน (อย่างไรก็ดี ออนไลน์คอร์สนี้ปัจจุบันปิดคอร์สแล้ว ทำให้ไม่สามารถ “submit” ตาม “Part 5: Export/ download and submit” ได้)
 
   **วิธีที่ 1B -- Install Spark บน mac OS**
 
