@@ -10,6 +10,6 @@ The Test Helper is a utility library designed to assist students in validating o
 
 - Compatible only with Python 3.x
 
-### Instalation
+### Installation
 
 For this version, which is used in the BDA class, please follow the instructions provided in the assignment file.
