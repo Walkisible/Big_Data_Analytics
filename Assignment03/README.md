@@ -4,18 +4,16 @@
 
 เขียนโปรแกรมสำหรับ Millionsong Regression Pipeline โดยทำขั้นตอนต่อไปนี้
 
-Source code สำหรับ Assignment ที่ 3: https://github.com/Walkisible/Big_Data_Analytics/tree/main
-
 1. clone/download git repo
 
-ไฟล์ที่ต้องใช้สำหรับ Assignment 3 ประกอบไปด้วย
-1.1 โปรแกรม Millionsong Regression Pipeline ในชื่อไฟล์ Assignment3_StudentID.ipynb
-1.2 library: test_helper
+ไฟล์ที่ต้องใช้สำหรับ Assignment 3 ประกอบไปด้วย<br />
+1.1 โปรแกรม Millionsong Regression Pipeline ในชื่อไฟล์ Assignment3_StudentID.ipynb<br />
+1.2 library: test_helper<br />
 1.3 dataset
 
 2. upload ทุกไฟล์ที่ download มาขึ้นไปยัง google drive ของนิสิต (ในกรณีของ VirtualBox จะอยู่ที่ http://localhost:8001/ และให้ upload ขึ้น jupyter )
 
-3. run programs ด้วย (1) Google Colab (recommended) หรือ (2) Vagrant & VirtualBox
+3. run programs ด้วย (1) Google Colab (recommended) หรือ (2) Vagrant & VirtualBox<br />
    เขียนคำตอบบริเวณ <FILL IN> ที่ปรากฎในไฟล์ Millionsong Regression Pipeline (ML_lab3_linear_reg_student.ipynb)
 
 ## วิธีส่งงาน:

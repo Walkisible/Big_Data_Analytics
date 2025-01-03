@@ -5,53 +5,55 @@
 https://github.com/Walkisible/Big_Data_Analytics/tree/main
 clone/download git repo
 
-ไฟล์ที่ต้องใช้สำหรับ Assignment 1 ประกอบไปด้วย
-1.1 ไฟล์ Assignment1_StudentID.ipynb
-1.2 library: test_helper
-1.3 dataset
+ไฟล์ที่ต้องใช้สำหรับ Assignment 1 ประกอบไปด้วย<br />
+1.1 ไฟล์ Assignment1_StudentID.ipynb<br />
+1.2 library: test_helper<br />
+1.3 dataset<br />
 
 ## README
 
-การติดตั้งเพื่อ implement Spark สามารถทำได้หลายวิธีโดยวิธีที่ง่ายและสะดวกที่สุดคือ การ implement บน google colab ที่ provide distrubution basis ไว้ให้แล้วทำให้ users สามารถไป implement ได้เลย
+การติดตั้งเพื่อ implement Spark สามารถทำได้หลายวิธีโดยวิธีที่ง่ายและสะดวกที่สุดคือ การ implement บน google colab ที่ provide distrubution basis ไว้ให้แล้วทำให้ users สามารถไป implement ได้เลย<br />
 
-อย่างไรก็ตาม ใน class จะอธิบายการ implement ไว้ให้ 2 วิธีคือการสร้าง local VM เพื่อ compute แบบ distributed กับวิธีที่ 2 คือการไป implement บน google colab
+อย่างไรก็ตาม ใน class จะอธิบายการ implement ไว้ให้ 2 วิธีคือการสร้าง local VM เพื่อ compute แบบ distributed กับวิธีที่ 2 คือการไป implement บน google colab<br />
 
 ## วิธีที่ 1 -- รันบน local computer
 
-ขั้นตอนแรก: ให้ทุกคนติดตั้ง Anaconda ก่อน เพื่อลง Environments สำหรับการใช้ภาษา Python บน คอมพิวเตอร์ส่วนตัว หากใครมี Anaconda แล้ว ให้ไปติดตั้ง Spark บนคอมพิวเตอร์ตาม OS ที่กำหนดในวิธี 1A หรือ 1B (ให้ติดตั้งและเลือกสร้าง env บน Python 3)
+ขั้นตอนแรก: ให้ทุกคนติดตั้ง Anaconda ก่อน เพื่อลง Environments สำหรับการใช้ภาษา Python บน คอมพิวเตอร์ส่วนตัว หากใครมี Anaconda แล้ว ให้ไปติดตั้ง Spark บนคอมพิวเตอร์ตาม OS ที่กำหนดในวิธี 1A หรือ 1B (ให้ติดตั้งและเลือกสร้าง env บน Python 3)<br />
 
 - Anaconda for windows: https://docs.anaconda.com/anaconda/install/windows/
 - Anaconda for mac OS: https://docs.anaconda.com/anaconda/install/mac-os/
-  **วิธีที่ 1A -- Install Spark บน Windows**
-  1.1 เข้าออนไลน์คอร์ส BerkeleyX: CS100.1x Introduction to Big Data with Apache Spark (ปัจจุบันเป็น archived)
-  https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/
-  1.2. เข้าที่ tab “Course” เลือก “Setting up the Course Software Environment” จากนั้นอ่านและ install software ด้านล่างนี้โดยดูคำแนะนำการติดตั้งซอฟต์แวร์ได้ตามวิดีโอในหัวข้อนี้ (เลือก download software)
-  Download & install VirtualBox – เลือก version ใหม่ล่าสุดจาก Website
 
-* ในกรณีที่ใช้ Windows 10 หลังติดตั้งเสร็จแล้ว ให้เลือกค่า “Run this program in compatibility mode for Windows 7” สำหรับ VirtualBox
-  Download & install Vagrant – เลือกversion ใหม่ล่าสุดจาก Website
-  Download & install Virtual Machine
-  download file https://github.com/spark-mooc/mooc-setup/archive/master.zip ไว้ที่ “user directory” เช่น c:\users\boonserm\myvagrant จากนั้น Unzip file แล้ว copy “Vagrantfile” ไว้ที่ “user directory”
-  Run software:
-  run cmd (command prompt – run as administrator)
-  เปลี่ยนไดเร็กทอรีไปที่ user directory
-  run “vagrant up” แล้วรอจนกว่าจะ Download เสร็จ จึงค่อย Start sparkvm ใน VM Machine จากนั้น ให้เข้าไปที่ http://localhost:8001 เพื่อรัน Jupyter Notebook
-  ศึกษาหัวข้อ “Basic Instructions for Using the Virtual Machine” ตามวิดีโอ
-  ศึกษาหัวข้อ “Running Your First Notebook” โดยการ upload file “Assignment1_StudentID.ipynb” (Spark iPython notebook file) และทดลองรันโปรแกรมตามคำอธิบายทีละขั้นตอน (อย่างไรก็ดี ออนไลน์คอร์สนี้ปัจจุบันปิดคอร์สแล้ว ทำให้ไม่สามารถ “submit” ตาม “Part 5: Export/ download and submit” ได้)
+  **วิธีที่ 1A -- Install Spark บน Windows**
+
+  1. เข้าออนไลน์คอร์ส BerkeleyX: CS100.1x Introduction to Big Data with Apache Spark (ปัจจุบันเป็น archived)
+     https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/
+  2. เข้าที่ tab “Course” เลือก “Setting up the Course Software Environment” จากนั้นอ่านและ install software ด้านล่างนี้โดยดูคำแนะนำการติดตั้งซอฟต์แวร์ได้ตามวิดีโอในหัวข้อนี้ (เลือก download software)
+     Download & install VirtualBox – เลือก version ใหม่ล่าสุดจาก Website
+
+* ในกรณีที่ใช้ Windows 10 หลังติดตั้งเสร็จแล้ว ให้เลือกค่า “Run this program in compatibility mode for Windows 7” สำหรับ VirtualBox<br />
+  Download & install Vagrant – เลือกversion ใหม่ล่าสุดจาก Website<br />
+  Download & install Virtual Machine<br />
+  download file https://github.com/spark-mooc/mooc-setup/archive/master.zip ไว้ที่ “user directory” เช่น c:\users\boonserm\myvagrant จากนั้น Unzip file แล้ว copy “Vagrantfile” ไว้ที่ “user directory”<br />
+  Run software:<br />
+  run cmd (command prompt – run as administrator)<br />
+  เปลี่ยนไดเร็กทอรีไปที่ user directory<br />
+  run “vagrant up” แล้วรอจนกว่าจะ Download เสร็จ จึงค่อย Start sparkvm ใน VM Machine จากนั้น ให้เข้าไปที่ http://localhost:8001 เพื่อรัน Jupyter Notebook<br />
+  ศึกษาหัวข้อ “Basic Instructions for Using the Virtual Machine” ตามวิดีโอ<br />
+  ศึกษาหัวข้อ “Running Your First Notebook” โดยการ upload file “Assignment1_StudentID.ipynb” (Spark iPython notebook file) และทดลองรันโปรแกรมตามคำอธิบายทีละขั้นตอน (อย่างไรก็ดี ออนไลน์คอร์สนี้ปัจจุบันปิดคอร์สแล้ว ทำให้ไม่สามารถ “submit” ตาม “Part 5: Export/ download and submit” ได้)<br />
 
   **วิธีที่ 1B -- Install Spark บน mac OS**
-  Download VM Virtual Box version 6.1.30 by clicking this link Download & install VirtualBox and then select the OS X hosts.
-  1.1 Unarchive VirtualBox-6.1.30-148432-OSX.dmg and then click run the .pkg file
-  Download Vagrant version 2.2.19 by clicking this link Download & install Vagrant and then select 64-bit.
-  2.1 Unarchive vagrant_2.2.19_x86_64.dmg and then click run the .pkg file
-  Download & install Virtual Machine from the github link by clicking this link https://github.com/spark-mooc/mooc-setup/archive/master.zip and then unzip this zipfile.
-  Open “Terminal” and compile ‘pwd’ to check the directory. It always starts with an own user directory likewise /Users/student’s_OSX_username. If your directory path is not the same as this example, you must change the directory path by using ‘cd /Users/student’s_OSX_username’.
-  Create directory for vagrant software on /Users/student’s_OSX_usernameby compile ‘mkdir myvagrant’ on terminal.
-  Copy the ‘Vagrantfile’ from downloaded files from 3 to /Users/student’s_OSX_username/myvagrant by using ‘cp directory path of Vagrantfile /Users/student’s_OSX_username/myvagrant’
-  Run command ‘vagrant up’ on terminal which the directory path located is on /Users/student’s_OSX_username/myvagrant and then wait until the downloading process will be completed. It spends time about 10 minutes depending on your internet speed.
-  Starting ‘sparkvm’ on Oravle VM Virtual Box and then go to http://localhost:8001 on a web browser.
-  If you cannot start sparkvm from 8, please verify security of the VM Virtual Box by this process. System Preference> Security & Privacy > Allow ‘VM Virtual Box’> Restart MacOS.
-  Upload file Assignment1_StudentID.ipynb to http://localhost:8001 and then compile the jupyter notebook to complete this assignment.
+
+  1. Download VM Virtual Box version 6.1.30 by clicking this link Download & install VirtualBox and then select the OS X hosts.
+     1.1 Unarchive VirtualBox-6.1.30-148432-OSX.dmg and then click run the .pkg file
+  2. Download Vagrant version 2.2.19 by clicking this link Download & install Vagrant and then select 64-bit. 2.1 Unarchive vagrant_2.2.19_x86_64.dmg and then click run the .pkg file<br />
+  3. Download & install Virtual Machine from the github link by clicking this link https://github.com/spark-mooc/mooc-setup/archive/master.zip and then unzip this zipfile.
+  4. Open “Terminal” and compile ‘pwd’ to check the directory. It always starts with an own user directory likewise /Users/student’s_OSX_username. If your directory path is not the same as this example, you must change the directory path by using ‘cd /Users/student’s_OSX_username’.
+  5. Create directory for vagrant software on /Users/student’s_OSX_usernameby compile ‘mkdir myvagrant’ on terminal.
+  6. Copy the ‘Vagrantfile’ from downloaded files from 3 to /Users/student’s_OSX_username/myvagrant by using ‘cp directory path of Vagrantfile /Users/student’s_OSX_username/myvagrant’
+  7. Run command ‘vagrant up’ on terminal which the directory path located is on /Users/student’s_OSX_username/myvagrant and then wait until the downloading process will be completed. It spends time about 10 minutes depending on your internet speed.
+  8. Starting ‘sparkvm’ on Oravle VM Virtual Box and then go to http://localhost:8001 on a web browser.
+  9. If you cannot start sparkvm from 8, please verify security of the VM Virtual Box by this process. System Preference> Security & Privacy > Allow ‘VM Virtual Box’> Restart MacOS.
+  10. Upload file Assignment1_StudentID.ipynb to http://localhost:8001 and then compile the jupyter notebook to complete this assignment.
 
 ### วิธีที่ 2 -- รันบน Google Colab
 

@@ -2,24 +2,22 @@
 
 ## To-do
 
-เขียนโปรแกรมสำหรับ Word Count โดยทำตามขั้นตอนต่อไปนี้
-
-Source code สำหรับ Assignment ที่ 2: https://github.com/Walkisible/Big_Data_Analytics/tree/main
+เขียนโปรแกรมสำหรับ Word Count โดยทำตามขั้นตอนต่อไปนี้<br />
 
 1. clone/download git repo
 
-ไฟล์ที่ต้องใช้สำหรับ Assignment 2 ประกอบไปด้วย
-1.1 โปรแกรม Spark Tutorial ซึ่งจะทำการอธิบายภายในคาบเรียน
-1.2 โปรแกรม Word Count ในชื่อไฟล์ Assignment2_StudentID.ipynb
-1.3 library: test_helper
+ไฟล์ที่ต้องใช้สำหรับ Assignment 2 ประกอบไปด้วย<br />
+1.1 โปรแกรม Spark Tutorial ซึ่งจะทำการอธิบายภายในคาบเรียน<br />
+1.2 โปรแกรม Word Count ในชื่อไฟล์ Assignment2_StudentID.ipynb<br />
+1.3 library: test_helper<br />
 1.4 dataset
 
 2. upload ทุกไฟล์ที่ download มาขึ้นไปยัง google drive ของนิสิต (ในกรณีของ VirtualBox จะอยู่ที่ http://localhost:8001/ และให้ upload ขึ้น jupyter )
 
-3. run programs ด้วย (1) Google Colab (recommended) หรือ (2) Vagrant & VirtualBox
+3. run programs ด้วย (1) Google Colab (recommended) หรือ (2) Vagrant & VirtualBox<br />
 
 ลองรันโปรแกรม Spark Tutorial เพื่อศึกษาการทำงาน โดยไม่ต้องแก้ไขใดๆ
-เขียนคำตอบบริเวณ <FILL IN> ที่ปรากฎในไฟล์ Word Count (Assignment2_StudentID.ipynb)
+เขียนคำตอบบริเวณ <FILL IN> ที่ปรากฎในไฟล์ Word Count (Assignment2_StudentID.ipynb)<br />
 
 dataset ของ assignment ที่ 2 ให้ใช้ dataset ตัวเดียวกันกับ assignment ที่ 1 คือ shakespeare.txt
 
